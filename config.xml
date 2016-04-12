@@ -18,9 +18,6 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-  <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
-  <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
-  <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
@@ -69,4 +66,8 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
+
+  <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+  <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
+  <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
 </widget>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.onesignal.example" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="manualdoheroi" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Manual do Herói</name>
   <description>
       Não precisamos de super poderes para salvar vidas!
@@ -70,7 +70,4 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-  <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
-  <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
-  <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
 </widget>

@@ -70,5 +70,8 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
+  <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+<gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
+<gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
   <gap:plugin name="onesignal-cordova-plugin" source="npm" />
 </widget>
